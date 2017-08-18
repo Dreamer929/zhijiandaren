@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95622D8E1F42A3E200343CBD /* Myview.m in Sources */ = {isa = PBXBuildFile; fileRef = 95622D8D1F42A3E200343CBD /* Myview.m */; };
+		95622D921F42C7FA00343CBD /* MoxiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 95622D911F42C7FA00343CBD /* MoxiConfig.m */; };
+		95622D961F42CFB000343CBD /* pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 95622D951F42CFB000343CBD /* pop.png */; };
+		95622DC11F42FD2F00343CBD /* gameover.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95622DBF1F42FD2F00343CBD /* gameover.wav */; };
+		95622DC21F42FD2F00343CBD /* gang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 95622DC01F42FD2F00343CBD /* gang.mp3 */; };
+		95622DC41F42FD4B00343CBD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95622DC31F42FD4B00343CBD /* AVFoundation.framework */; };
+		95622DC71F43D97300343CBD /* kunnan.png in Resources */ = {isa = PBXBuildFile; fileRef = 95622DC51F43D97300343CBD /* kunnan.png */; };
+		95622DC81F43D97300343CBD /* jiandan.png in Resources */ = {isa = PBXBuildFile; fileRef = 95622DC61F43D97300343CBD /* jiandan.png */; };
+		95622DCA1F43DB7C00343CBD /* cha.png in Resources */ = {isa = PBXBuildFile; fileRef = 95622DC91F43DB7C00343CBD /* cha.png */; };
 		95A5D6CE1F413F0B008B7805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D6CD1F413F0B008B7805 /* main.m */; };
 		95A5D6D11F413F0B008B7805 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D6D01F413F0B008B7805 /* AppDelegate.m */; };
 		95A5D6D41F413F0B008B7805 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D6D31F413F0B008B7805 /* ViewController.m */; };
@@ -15,6 +24,11 @@
 		95A5D6DC1F413F0B008B7805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A5D6DA1F413F0B008B7805 /* LaunchScreen.storyboard */; };
 		95A5D6E71F413F0B008B7805 /* MoxiThirdProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D6E61F413F0B008B7805 /* MoxiThirdProjectTests.m */; };
 		95A5D6F21F413F0B008B7805 /* MoxiThirdProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D6F11F413F0B008B7805 /* MoxiThirdProjectUITests.m */; };
+		95A5D7431F414226008B7805 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95A5D7451F414226008B7805 /* InfoPlist.strings */; };
+		95A5D7491F414338008B7805 /* BaseViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D7481F414338008B7805 /* BaseViewViewController.m */; };
+		95A5D74C1F414350008B7805 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D74B1F414350008B7805 /* RootViewController.m */; };
+		95A5D7511F4144B9008B7805 /* ZYFPopview.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D7501F4144B9008B7805 /* ZYFPopview.m */; };
+		C4FBD6C340225CE3B9D0BC74 /* libPods-MoxiThirdProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3F3F44B1C5481A21D11D1C /* libPods-MoxiThirdProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2501972CB22AF9B79FCEAC4C /* Pods-MoxiThirdProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoxiThirdProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoxiThirdProject/Pods-MoxiThirdProject.release.xcconfig"; sourceTree = "<group>"; };
+		3161EA06162E78FEFB7DB5CD /* Pods-MoxiThirdProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoxiThirdProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoxiThirdProject/Pods-MoxiThirdProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7D3F3F44B1C5481A21D11D1C /* libPods-MoxiThirdProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoxiThirdProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95622D8C1F42A3E200343CBD /* Myview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Myview.h; sourceTree = "<group>"; };
+		95622D8D1F42A3E200343CBD /* Myview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Myview.m; sourceTree = "<group>"; };
+		95622D901F42C7FA00343CBD /* MoxiConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoxiConfig.h; sourceTree = "<group>"; };
+		95622D911F42C7FA00343CBD /* MoxiConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoxiConfig.m; sourceTree = "<group>"; };
+		95622D951F42CFB000343CBD /* pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pop.png; sourceTree = "<group>"; };
+		95622DBF1F42FD2F00343CBD /* gameover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameover.wav; sourceTree = "<group>"; };
+		95622DC01F42FD2F00343CBD /* gang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gang.mp3; sourceTree = "<group>"; };
+		95622DC31F42FD4B00343CBD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		95622DC51F43D97300343CBD /* kunnan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kunnan.png; sourceTree = "<group>"; };
+		95622DC61F43D97300343CBD /* jiandan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiandan.png; sourceTree = "<group>"; };
+		95622DC91F43DB7C00343CBD /* cha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cha.png; sourceTree = "<group>"; };
 		95A5D6C91F413F0B008B7805 /* MoxiThirdProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoxiThirdProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A5D6CD1F413F0B008B7805 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95A5D6CF1F413F0B008B7805 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +79,18 @@
 		95A5D6ED1F413F0B008B7805 /* MoxiThirdProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoxiThirdProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A5D6F11F413F0B008B7805 /* MoxiThirdProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoxiThirdProjectUITests.m; sourceTree = "<group>"; };
 		95A5D6F31F413F0B008B7805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A5D7081F413FD9008B7805 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		95A5D7411F41421B008B7805 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		95A5D7421F41421B008B7805 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		95A5D7441F414226008B7805 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95A5D7461F414228008B7805 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		95A5D7471F414338008B7805 /* BaseViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewViewController.h; sourceTree = "<group>"; };
+		95A5D7481F414338008B7805 /* BaseViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewViewController.m; sourceTree = "<group>"; };
+		95A5D74A1F414350008B7805 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		95A5D74B1F414350008B7805 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		95A5D74D1F414375008B7805 /* MoxiDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoxiDefine.h; sourceTree = "<group>"; };
+		95A5D74F1F4144B9008B7805 /* ZYFPopview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFPopview.h; sourceTree = "<group>"; };
+		95A5D7501F4144B9008B7805 /* ZYFPopview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFPopview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95622DC41F42FD4B00343CBD /* AVFoundation.framework in Frameworks */,
+				C4FBD6C340225CE3B9D0BC74 /* libPods-MoxiThirdProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +120,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E2C8D783BA67535ECA6D3E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3161EA06162E78FEFB7DB5CD /* Pods-MoxiThirdProject.debug.xcconfig */,
+				2501972CB22AF9B79FCEAC4C /* Pods-MoxiThirdProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95622D8F1F42C7EA00343CBD /* MoxiConfig */ = {
+			isa = PBXGroup;
+			children = (
+				95622D901F42C7FA00343CBD /* MoxiConfig.h */,
+				95622D911F42C7FA00343CBD /* MoxiConfig.m */,
+			);
+			path = MoxiConfig;
+			sourceTree = "<group>";
+		};
+		95622D941F42CFB000343CBD /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				95622DC91F43DB7C00343CBD /* cha.png */,
+				95622DC51F43D97300343CBD /* kunnan.png */,
+				95622DC61F43D97300343CBD /* jiandan.png */,
+				95622DBF1F42FD2F00343CBD /* gameover.wav */,
+				95622DC01F42FD2F00343CBD /* gang.mp3 */,
+				95622D951F42CFB000343CBD /* pop.png */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
 		95A5D6C01F413F0B008B7805 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +158,8 @@
 				95A5D6E51F413F0B008B7805 /* MoxiThirdProjectTests */,
 				95A5D6F01F413F0B008B7805 /* MoxiThirdProjectUITests */,
 				95A5D6CA1F413F0B008B7805 /* Products */,
+				7E2C8D783BA67535ECA6D3E0 /* Pods */,
+				C67BC13E97B0855319E07740 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +176,15 @@
 		95A5D6CB1F413F0B008B7805 /* MoxiThirdProject */ = {
 			isa = PBXGroup;
 			children = (
-				95A5D6CF1F413F0B008B7805 /* AppDelegate.h */,
-				95A5D6D01F413F0B008B7805 /* AppDelegate.m */,
-				95A5D6D21F413F0B008B7805 /* ViewController.h */,
-				95A5D6D31F413F0B008B7805 /* ViewController.m */,
-				95A5D6D51F413F0B008B7805 /* Main.storyboard */,
-				95A5D6D81F413F0B008B7805 /* Assets.xcassets */,
-				95A5D6DA1F413F0B008B7805 /* LaunchScreen.storyboard */,
-				95A5D6DD1F413F0B008B7805 /* Info.plist */,
+				95622D941F42CFB000343CBD /* Resouce */,
+				95622D8F1F42C7EA00343CBD /* MoxiConfig */,
+				95A5D74E1F4144B9008B7805 /* tool */,
+				95A5D7071F413FBB008B7805 /* App */,
+				95A5D6FF1F413FA3008B7805 /* caregaty */,
+				95A5D7001F413FA3008B7805 /* controllers */,
+				95A5D7041F413FA3008B7805 /* expand */,
+				95A5D7051F413FA3008B7805 /* models */,
+				95A5D7061F413FA3008B7805 /* views */,
 				95A5D6CC1F413F0B008B7805 /* Supporting Files */,
 			);
 			path = MoxiThirdProject;
@@ -118,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				95A5D6CD1F413F0B008B7805 /* main.m */,
+				95A5D7081F413FD9008B7805 /* PrefixHeader.pch */,
+				95A5D7451F414226008B7805 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +218,105 @@
 			path = MoxiThirdProjectUITests;
 			sourceTree = "<group>";
 		};
+		95A5D6FF1F413FA3008B7805 /* caregaty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = caregaty;
+			sourceTree = "<group>";
+		};
+		95A5D7001F413FA3008B7805 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				95A5D7011F413FA3008B7805 /* base */,
+				95A5D7021F413FA3008B7805 /* home */,
+				95A5D7031F413FA3008B7805 /* root */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		95A5D7011F413FA3008B7805 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				95A5D7471F414338008B7805 /* BaseViewViewController.h */,
+				95A5D7481F414338008B7805 /* BaseViewViewController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		95A5D7021F413FA3008B7805 /* home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		95A5D7031F413FA3008B7805 /* root */ = {
+			isa = PBXGroup;
+			children = (
+				95A5D74A1F414350008B7805 /* RootViewController.h */,
+				95A5D74B1F414350008B7805 /* RootViewController.m */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		95A5D7041F413FA3008B7805 /* expand */ = {
+			isa = PBXGroup;
+			children = (
+				95A5D74D1F414375008B7805 /* MoxiDefine.h */,
+			);
+			path = expand;
+			sourceTree = "<group>";
+		};
+		95A5D7051F413FA3008B7805 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		95A5D7061F413FA3008B7805 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				95622D8C1F42A3E200343CBD /* Myview.h */,
+				95622D8D1F42A3E200343CBD /* Myview.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		95A5D7071F413FBB008B7805 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				95A5D6CF1F413F0B008B7805 /* AppDelegate.h */,
+				95A5D6D01F413F0B008B7805 /* AppDelegate.m */,
+				95A5D6D21F413F0B008B7805 /* ViewController.h */,
+				95A5D6D31F413F0B008B7805 /* ViewController.m */,
+				95A5D6D51F413F0B008B7805 /* Main.storyboard */,
+				95A5D6D81F413F0B008B7805 /* Assets.xcassets */,
+				95A5D6DA1F413F0B008B7805 /* LaunchScreen.storyboard */,
+				95A5D6DD1F413F0B008B7805 /* Info.plist */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		95A5D74E1F4144B9008B7805 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				95A5D74F1F4144B9008B7805 /* ZYFPopview.h */,
+				95A5D7501F4144B9008B7805 /* ZYFPopview.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		C67BC13E97B0855319E07740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95622DC31F42FD4B00343CBD /* AVFoundation.framework */,
+				7D3F3F44B1C5481A21D11D1C /* libPods-MoxiThirdProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95A5D6F61F413F0B008B7805 /* Build configuration list for PBXNativeTarget "MoxiThirdProject" */;
 			buildPhases = (
+				D4A036B906A4A7A5CA4ABF79 /* [CP] Check Pods Manifest.lock */,
 				95A5D6C51F413F0B008B7805 /* Sources */,
 				95A5D6C61F413F0B008B7805 /* Frameworks */,
 				95A5D6C71F413F0B008B7805 /* Resources */,
+				EDB79E4A09598784F7A7D245 /* [CP] Embed Pods Frameworks */,
+				49C8AA9A4E45045B414F7F1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +387,7 @@
 				TargetAttributes = {
 					95A5D6C81F413F0B008B7805 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = QQPLB98WMN;
+						DevelopmentTeam = 9ZTDJ45Z5F;
 						ProvisioningStyle = Automatic;
 					};
 					95A5D6E11F413F0B008B7805 = {
@@ -231,6 +411,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 95A5D6C01F413F0B008B7805;
 			productRefGroup = 95A5D6CA1F413F0B008B7805 /* Products */;
@@ -249,9 +430,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95622DCA1F43DB7C00343CBD /* cha.png in Resources */,
+				95622DC11F42FD2F00343CBD /* gameover.wav in Resources */,
+				95622DC71F43D97300343CBD /* kunnan.png in Resources */,
 				95A5D6DC1F413F0B008B7805 /* LaunchScreen.storyboard in Resources */,
+				95622DC81F43D97300343CBD /* jiandan.png in Resources */,
+				95622DC21F42FD2F00343CBD /* gang.mp3 in Resources */,
+				95A5D7431F414226008B7805 /* InfoPlist.strings in Resources */,
 				95A5D6D91F413F0B008B7805 /* Assets.xcassets in Resources */,
 				95A5D6D71F413F0B008B7805 /* Main.storyboard in Resources */,
+				95622D961F42CFB000343CBD /* pop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +459,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49C8AA9A4E45045B414F7F1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoxiThirdProject/Pods-MoxiThirdProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A036B906A4A7A5CA4ABF79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB79E4A09598784F7A7D245 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoxiThirdProject/Pods-MoxiThirdProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95A5D6C51F413F0B008B7805 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A5D7491F414338008B7805 /* BaseViewViewController.m in Sources */,
 				95A5D6D41F413F0B008B7805 /* ViewController.m in Sources */,
+				95622D921F42C7FA00343CBD /* MoxiConfig.m in Sources */,
+				95622D8E1F42A3E200343CBD /* Myview.m in Sources */,
 				95A5D6D11F413F0B008B7805 /* AppDelegate.m in Sources */,
 				95A5D6CE1F413F0B008B7805 /* main.m in Sources */,
+				95A5D7511F4144B9008B7805 /* ZYFPopview.m in Sources */,
+				95A5D74C1F414350008B7805 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +559,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				95A5D6D61F413F0B008B7805 /* Base */,
+				95A5D7411F41421B008B7805 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -326,8 +568,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				95A5D6DB1F413F0B008B7805 /* Base */,
+				95A5D7421F41421B008B7805 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		95A5D7451F414226008B7805 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A5D7441F414226008B7805 /* en */,
+				95A5D7461F414228008B7805 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -337,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -385,6 +638,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -425,24 +679,32 @@
 		};
 		95A5D6F71F413F0B008B7805 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3161EA06162E78FEFB7DB5CD /* Pods-MoxiThirdProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QQPLB98WMN;
+				DEVELOPMENT_TEAM = 9ZTDJ45Z5F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MoxiThirdProject/PrefixHeader.pch";
 				INFOPLIST_FILE = MoxiThirdProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zyfDreamer.app.MoxiThirdProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxi.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		95A5D6F81F413F0B008B7805 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2501972CB22AF9B79FCEAC4C /* Pods-MoxiThirdProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QQPLB98WMN;
+				DEVELOPMENT_TEAM = 9ZTDJ45Z5F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MoxiThirdProject/PrefixHeader.pch";
 				INFOPLIST_FILE = MoxiThirdProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zyfDreamer.app.MoxiThirdProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxi.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -516,6 +778,7 @@
 				95A5D6F81F413F0B008B7805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95A5D6F91F413F0B008B7805 /* Build configuration list for PBXNativeTarget "MoxiThirdProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +787,7 @@
 				95A5D6FB1F413F0B008B7805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95A5D6FC1F413F0B008B7805 /* Build configuration list for PBXNativeTarget "MoxiThirdProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +796,7 @@
 				95A5D6FE1F413F0B008B7805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
